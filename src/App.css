@@ -9,19 +9,9 @@
     font-size: 50px;
 }
 
-.Clock-days {
+.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
     display: inline;
+    margin: 10px;
 }
 
-.Clock-hours {
-    display: inline;
-}
-
-.Clock-minutes {
-    display: inline;
-}
-
-.Clock-seconds {
-    display: inline;
-}
 
