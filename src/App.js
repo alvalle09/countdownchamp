@@ -3,10 +3,14 @@ import './App.css';
 
 class App extends Component {
   constructor(props) {
-      super(props)
+      super(props);
       this.state = {
           deadLine: 'December 26, 2017'
       }
+  }
+
+  changeDeadline() {
+      this.setState({deadLine: 'January 2, 1970'})
   }
 
   render() {
@@ -20,7 +24,9 @@ class App extends Component {
           <div className="Clock-seconds">20 seconds</div>
         </div>
         <input placeholder="new date" />
-        <button>Submit</button>
+        <button onClick={() => this.changeDeadline()}>
+            Submit
+        </button>
       </div>
     );
   }
