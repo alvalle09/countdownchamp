@@ -23,6 +23,13 @@ class Clock extends Component {
 
     }
 
+    leading0(num) {
+      if (num < 10) {
+        return '0' + num;
+      }
+      return num;
+    }
+
     getTimeUntil(deadline) {
         const time =  Date.parse(deadline) - Date.parse(new Date());
         console.log('time', time);
