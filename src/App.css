@@ -19,6 +19,11 @@
 .Deadline-input {
     font-size: 20px;
     margin: 10px;
+   
     
+}
+
+.myinput {
+    display: inline-block;
 }
 
