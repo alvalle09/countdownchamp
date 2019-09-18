@@ -3,6 +3,8 @@
     text-align: center;
     font-size: 35px;
     margin-top: 20%;
+    
+
 }
 
 .App-title {
@@ -15,7 +17,8 @@
 }
 
 .Deadline-input {
-    font-size: 25px;
-    margin: 5px;
+    font-size: 20px;
+    margin: 10px;
+    
 }
 
